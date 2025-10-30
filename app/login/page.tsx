@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabaseClient";
 export default function LoginPage() {
   const [email, setEmail] = useState("");
 
+  // 👇 add the type here
   async function handleLogin(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const { error } = await supabase.auth.signInWithOtp({ email });
