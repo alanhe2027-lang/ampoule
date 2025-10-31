@@ -89,7 +89,7 @@ export default function SignupPage() {
       {/* Right side — image with overlay text */}
       <div className="hidden md:block md:w-1/2 relative">
         <img
-          src="/signup-hero.jpg" // replace with your own image in /public
+          src="/signup-hero.png" // replace with your own image in /public
           alt="Background"
           className="object-cover w-full h-full"
         />
