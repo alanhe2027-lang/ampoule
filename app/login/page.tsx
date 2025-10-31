@@ -80,7 +80,7 @@ export default function LoginPage() {
       {/* Right side — image with overlay text */}
       <div className="hidden md:block md:w-1/2 relative">
         <img
-          src="/login-hero.jpg" // Add your own image in /public
+          src="/login-hero.jpeg" // Add your own image in /public
           alt="Background"
           className="object-cover w-full h-full"
         />
